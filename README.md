@@ -61,6 +61,17 @@ Examples:
 - Exchange Management Shell access (production)
 - Appropriate permissions for AD group reading and Exchange add-in management
 
+## Version Control
+
+This project includes a comprehensive `.gitignore` file that excludes:
+- Log files (`logs/`, `*.log`)
+- State files (`data/state.json`, etc.)
+- Test reports and temporary files
+- Personal configuration files
+- IDE and OS-specific files
+
+Only source code, documentation, and sample configurations are tracked in version control.
+
 ## License
 
 MIT License

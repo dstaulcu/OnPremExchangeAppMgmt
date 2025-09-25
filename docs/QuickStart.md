@@ -146,3 +146,9 @@ Register-ScheduledTask -TaskName "ExchangeAddInManagement" -Action $action -Trig
 - Check file permissions on state.json
 
 For more detailed troubleshooting, see the log files in the `logs\` directory.
+
+## Development Notes
+
+- Log files and state files are automatically excluded from version control via `.gitignore`
+- Only source code, documentation, and configuration templates are tracked in git
+- Personal configuration files (ending in `-local.json`) are also ignored

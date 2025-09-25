@@ -1,0 +1,112 @@
+# Exchange Add-In Management Framework - Git Ignore
+
+# Log files
+logs/
+*.log
+
+# State and data files
+data/state.json
+data/dev-state.json
+data/*-state.json
+data/test-report-*.json
+
+# PowerShell debug files
+*.psd1.bak
+*.psm1.bak
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Test output and reports
+test-results/
+coverage-reports/
+*.trx
+*.coverage
+
+# PowerShell execution policy files
+Set-ExecutionPolicy.ps1
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.ropeproject
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Personal configuration files
+config/personal.json
+config/local.json
+config/*-local.json
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Runtime generated files
+pid.txt
+*.pid
+*.seed
+*.pid.lock
+
+# Sensitive information (just in case)
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# Build artifacts (if any PowerShell modules are built)
+build/
+dist/
+*.nupkg
+
+# Package manager files
+packages/
+node_modules/ # In case any JS tools are added later
+
+# Documentation build output
+docs/_build/
+docs/site/
+
+# Performance test results
+perf-results/
+*.perfdata
