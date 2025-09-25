@@ -2,8 +2,8 @@
 
 Write-Host "Starting Exchange Add-In Management Framework Demo..." -ForegroundColor Cyan
 
-# Change to the project directory
-$projectRoot = Split-Path $PSScriptRoot
+# Set the project directory to current script location
+$projectRoot = $PSScriptRoot
 
 # Run basic functionality test
 Write-Host "`n=== Running Basic Tests ===" -ForegroundColor Yellow

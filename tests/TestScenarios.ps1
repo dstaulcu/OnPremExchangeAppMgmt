@@ -86,7 +86,9 @@ class TestRunner {
         Write-Host "Passed: $($this.PassedCount)" -ForegroundColor Green
         Write-Host "Failed: $($this.FailedCount)" -ForegroundColor Red
         Write-Host "Success Rate: $(if($this.Results.Count -gt 0) { [math]::Round(($this.PassedCount / $this.Results.Count) * 100, 2) } else { 0 })%" -ForegroundColor White
-        Write-Host "Total Duration: $([math]::Round(($this.Results | Measure-Object -Property Duration -Sum).Sum.TotalSeconds, 2)) seconds" -ForegroundColor White
+        
+        $totalSeconds = ($this.Results | ForEach-Object { $_.Duration.TotalSeconds } | Measure-Object -Sum).Sum
+        Write-Host "Total Duration: $([math]::Round($totalSeconds, 2)) seconds" -ForegroundColor White
     }
     
     [void] GenerateReport([string]$outputPath) {

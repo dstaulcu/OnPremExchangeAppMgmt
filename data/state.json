@@ -1,0 +1,47 @@
+[
+  {
+    "GroupName": "app-exchangeaddin-salesforce-prod",
+    "AddInName": "salesforce",
+    "Environment": "prod",
+    "ManifestUrl": "https://appexchange.salesforce.com/manifest.xml",
+    "CurrentMembers": [
+      "john.doe@contoso.com",
+      "alice.smith@contoso.com",
+      "bob.wilson@contoso.com"
+    ],
+    "LastUpdated": "2025-09-25 00:29:43"
+  },
+  {
+    "GroupName": "app-exchangeaddin-docusign-test",
+    "AddInName": "docusign",
+    "Environment": "test",
+    "ManifestUrl": "https://apps.docusign.com/manifest.xml",
+    "CurrentMembers": [
+      "alice.smith@contoso.com",
+      "carol.johnson@contoso.com"
+    ],
+    "LastUpdated": "2025-09-25 00:29:43"
+  },
+  {
+    "GroupName": "app-exchangeaddin-teams-dev",
+    "AddInName": "teams",
+    "Environment": "dev",
+    "ManifestUrl": "https://teams.microsoft.com/dev/manifest.xml",
+    "CurrentMembers": [
+      "david.lee@contoso.com"
+    ],
+    "LastUpdated": "2025-09-25 00:29:43"
+  },
+  {
+    "GroupName": "app-exchangeaddin-onenote-prod",
+    "AddInName": "onenote",
+    "Environment": "prod",
+    "ManifestUrl": "https://onenote.com/addin/manifest.xml",
+    "CurrentMembers": [
+      "john.doe@contoso.com",
+      "carol.johnson@contoso.com",
+      "david.lee@contoso.com"
+    ],
+    "LastUpdated": "2025-09-25 00:29:43"
+  }
+]

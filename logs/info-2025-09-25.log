@@ -1,0 +1,37 @@
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Starting group discovery with pattern: app-exchangeaddin-*
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-salesforce-prod with 3 members
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-docusign-test with 2 members
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-teams-dev with 1 members
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-onenote-prod with 3 members
+2025-09-25 00:28:55 [INFO] LoadPreviousState: No previous state file found
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed salesforce for john.doe@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed salesforce for alice.smith@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed salesforce for bob.wilson@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed docusign for alice.smith@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed docusign for carol.johnson@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed teams for david.lee@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed onenote for john.doe@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed onenote for carol.johnson@contoso.com
+2025-09-25 00:28:55 [INFO] InstallAddIn: Successfully installed onenote for david.lee@contoso.com
+2025-09-25 00:28:55 [INFO] SaveCurrentState: Successfully saved current state
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Starting group discovery with pattern: app-exchangeaddin-*
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-salesforce-prod with 3 members
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-docusign-test with 2 members
+2025-09-25 00:28:55 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-teams-dev with 1 members
+2025-09-25 00:28:56 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-onenote-prod with 3 members
+2025-09-25 00:28:56 [INFO] LoadPreviousState: Successfully loaded previous state
+2025-09-25 00:28:56 [INFO] SaveCurrentState: Successfully saved current state
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Starting group discovery with pattern: app-exchangeaddin-*
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-salesforce-prod with 3 members
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-docusign-test with 2 members
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-teams-dev with 1 members
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-onenote-prod with 3 members
+2025-09-25 00:29:43 [INFO] LoadPreviousState: Successfully loaded previous state
+2025-09-25 00:29:43 [INFO] SaveCurrentState: Successfully saved current state
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Starting group discovery with pattern: app-exchangeaddin-*
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-salesforce-prod with 3 members
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-docusign-test with 2 members
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-teams-dev with 1 members
+2025-09-25 00:29:43 [INFO] DiscoverAddInGroups: Found group app-exchangeaddin-onenote-prod with 3 members
+2025-09-25 00:29:43 [INFO] LoadPreviousState: Successfully loaded previous state
+2025-09-25 00:29:43 [INFO] SaveCurrentState: Successfully saved current state
