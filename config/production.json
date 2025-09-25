@@ -1,0 +1,28 @@
+{
+  "exchangeServer": "exchange.contoso.com",
+  "domain": "contoso.com", 
+  "groupPattern": "app-exchangeaddin-*",
+  "stateFilePath": ".\\data\\state.json",
+  "logPath": ".\\logs",
+  "scheduledTask": {
+    "enabled": true,
+    "intervalMinutes": 15,
+    "taskName": "ExchangeAddInManagement"
+  },
+  "notifications": {
+    "emailEnabled": false,
+    "emailTo": ["admin@contoso.com"],
+    "emailFrom": "exchangeaddins@contoso.com",
+    "smtpServer": "smtp.contoso.com"
+  },
+  "retryPolicy": {
+    "maxRetries": 3,
+    "retryDelaySeconds": 30,
+    "backoffMultiplier": 2
+  },
+  "logging": {
+    "level": "Information",
+    "retentionDays": 30,
+    "maxFileSizeMB": 10
+  }
+}
